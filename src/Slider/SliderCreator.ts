@@ -1,10 +1,7 @@
 
 import { vertex, vertexOrigin } from '@bhbr/affr2'
-import { Creator } from 'minter/creators/Creator.js'
+import { Creator, Linkable, Color } from '@bhbr/minter'
 import { Slider } from './Slider.js'
-import { Linkable } from 'minter/linkables/Linkable.js'
-import { Color } from 'minter/classes/Color.js'
-
 
 export class SliderCreator extends Creator {
 

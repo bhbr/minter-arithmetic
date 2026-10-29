@@ -1,5 +1,5 @@
 
-import { DraggingCreator } from 'minter/creators/DraggingCreator.js'
+import { DraggingCreator } from '@bhbr/minter'
 import { BinaryOperatorBox, AddBox, SubtractBox, MultiplyBox, DivideBox } from './BinaryOperatorBox.js'
 import { LessThanBox } from './ComparisonBox.js'
 

@@ -1,5 +1,5 @@
 
-import { DraggingCreator } from 'minter/creators/DraggingCreator.js'
+import { DraggingCreator } from '@bhbr/minter'
 import { ComparisonBox, LessThanBox, LessThanOrEqualBox, GreaterThanBox, GreaterThanOrEqualBox, EqualsBox, NotEqualsBox } from './ComparisonBox.js'
 
 export class ComparisonBoxCreator extends DraggingCreator {

@@ -1,15 +1,8 @@
 
-import { Linkable } from 'minter/linkables/Linkable.js'
+import { Linkable, getPaper, getSidebar, log, Color, TextLabel, eventVertex, ScreenEvent, ScreenEventHandler, isTouchDevice, Rectangle, DependencyLink } from '@bhbr/minter'
 import { vertex, vertexSubtract } from '@bhbr/affr2'
-import { getPaper, getSidebar } from 'minter/functions/getters.js'
-import { log } from 'minter/functions/logging.js'
-import { Color } from 'minter/classes/Color.js'
-import { TextLabel } from 'minter/ui/TextLabel.js'
-import { eventVertex, ScreenEvent, ScreenEventHandler, isTouchDevice } from 'minter/mobjects/screen_events.js'
-import { Rectangle } from 'minter/shapes/Rectangle.js'
 import { NumberInputBox } from '../InputBox/NumberInputBox.js'
 import { VariableNameBox } from './VariableNameBox.js'
-import { DependencyLink } from 'minter/linkables/DependencyLink.js'
 
 export class Slider extends Linkable {
 /*

@@ -13,18 +13,16 @@
         "sourceMap": true,
         
         "esModuleInterop": true,
-        "skipLibCheck": true,
+        "skipLibCheck": false,
         
         "lib": [
             "ES2021",
             "DOM",
             "DOM.Iterable"
         ],
-        "paths": {
-            "minter/*": ["../../minter/dist/*"]
-        }
     },
+    
     "include": [
-        "./**/*.ts"
+        "src/**/*.ts"
     ]
 }

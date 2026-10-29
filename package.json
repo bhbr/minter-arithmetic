@@ -1,13 +1,38 @@
 {
-  "name": "minter-math",
+  "name": "@bhbr/minter-arithmetic",
   "version": "1.0.0",
   "description": "Basic arithmetic mobjects for minter",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist/",
+    "!dist/_tests"
+  ],
   "scripts": {
+    "build": "./build.sh",
+    "clean": "rm -rf dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "@bhbr/tsts": "^1.1.3"
+  },
+  "dependencies": {
+    "@bhbr/affr2": "^1.0.0",
+    "@bhbr/betray": "^1.0.0",
+    "@bhbr/better-things": "^1.0.0",
+    "@bhbr/egalite": "^1.2.0",
+    "@bhbr/upper-class": "^1.0.0",
+    "@bhbr/copycat": "^1.0.0",
+    "@bhbr/minter": "^1.0.0"
+  }
 }

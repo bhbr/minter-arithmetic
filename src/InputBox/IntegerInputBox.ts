@@ -1,7 +1,6 @@
 
 import { NumberInputBox } from './NumberInputBox.js'
-import { SimpleButton } from 'minter/ui/SimpleButton.js'
-import { log } from 'minter/functions/logging.js'
+import { SimpleButton, log } from '@bhbr/minter'
 
 const BUTTON_WIDTH: number = 20
 const BUTTON_INSET: number = 5

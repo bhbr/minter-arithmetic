@@ -1,12 +1,6 @@
 
 import { NumberBox } from './NumberBox.js'
-import { Rectangle } from 'minter/shapes/Rectangle.js'
-import { TextLabel } from 'minter/ui/TextLabel.js'
-import { Color } from 'minter/classes/Color.js'
-import { numberArraySum } from 'minter/functions/math.js'
-import { log } from 'minter/functions/logging.js'
-import { prettyPrint } from 'minter/functions/various.js'
-
+import { Rectangle, TextLabel, Color, numberArraySum, log, prettyPrint } from '@bhbr/minter'
 export class NumberValuedFunctionBox extends NumberBox {
 	
 	argument: Array<number>

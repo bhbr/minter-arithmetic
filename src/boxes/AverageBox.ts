@@ -1,8 +1,6 @@
 
 import { NumberValuedFunctionBox } from './NumberValuedFunctionBox.js'
-import { numberArraySum } from 'minter/functions/math.js'
-import { DraggingCreator } from 'minter/creators/DraggingCreator.js'
-import { log } from 'minter/functions/logging.js'
+import { numberArraySum, DraggingCreator, log } from '@bhbr/minter'
 
 export class AverageBox extends NumberValuedFunctionBox {
 	

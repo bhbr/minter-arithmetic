@@ -1,9 +1,6 @@
 
 import { Slider } from '../Slider/Slider.js'
-import { ScreenEvent, eventVertex } from 'minter/mobjects/screen_events.js'
-import { MGroup } from 'minter/mobjects/MGroup.js'
-import { Line } from 'minter/shapes/Line.js'
-import { log } from 'minter/functions/logging.js'
+import { ScreenEvent, eventVertex, MGroup, Line, log } from '@bhbr/minter'
 
 export class Stepper extends Slider {
 

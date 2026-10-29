@@ -1,6 +1,5 @@
 
-import { CreativeButton } from 'minter/sidebar_buttons/CreativeButton.js'
-import { ImageView } from 'minter/mobjects/ImageView.js'
+import { CreativeButton, ImageView } from '@bhbr/minter'
 
 export class ListFunctionsButton extends CreativeButton {
 

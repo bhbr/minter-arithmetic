@@ -1,6 +1,6 @@
 
 import { TextInputBox } from '../InputBox/TextInputBox.js'
-import { getPaper } from 'minter/functions/getters.js'
+import { getPaper } from '@bhbr/minter'
 
 export class VariableNameBox extends TextInputBox {
 

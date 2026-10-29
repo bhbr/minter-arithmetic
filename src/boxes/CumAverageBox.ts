@@ -1,7 +1,6 @@
 
 import { NumberListValuedFunctionBox } from './NumberListValuedFunctionBox.js'
-import { numberArrayCumAverage } from 'minter/functions/math.js'
-import { DraggingCreator } from 'minter/creators/DraggingCreator.js'
+import { numberArrayCumAverage, DraggingCreator } from '@bhbr/minter'
 
 export class CumAverageBox extends NumberListValuedFunctionBox {
 	

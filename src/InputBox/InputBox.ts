@@ -1,15 +1,6 @@
 
-import { Rectangle } from 'minter/shapes/Rectangle.js'
-import { TextLabel } from 'minter/ui/TextLabel.js'
-import { Color } from 'minter/classes/Color.js'
-import { Mobject } from 'minter/mobjects/Mobject.js'
-import { log } from 'minter/functions/logging.js'
+import { Rectangle, TextLabel, Color, Mobject, log, getPaper, getSidebar, ScreenEvent, ScreenEventHandler, isTouchDevice, SidebarButton, DependencyLink, DraggingCreator } from '@bhbr/minter'
 import { vertex } from '@bhbr/affr2'
-import { getPaper, getSidebar } from 'minter/functions/getters.js'
-import { ScreenEvent, ScreenEventHandler, isTouchDevice } from 'minter/mobjects/screen_events.js'
-import { SidebarButton } from 'minter/sidebar_buttons/SidebarButton.js'
-import { DependencyLink } from 'minter/linkables/DependencyLink.js'
-import { DraggingCreator } from 'minter/creators/DraggingCreator.js'
 
 const BOX_HEIGHT: number = 30
 
@@ -49,8 +40,8 @@ export class InputBox extends Mobject {
 
 	mutabilities(): object {
 		return {
-			background: 'never',
-			inputElement: 'never'
+			background: 'always', // should be never (Mobject bug)
+			inputElement: 'always' // should be never (Mobject bug)
 		}
 	}
 

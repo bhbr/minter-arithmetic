@@ -1,15 +1,15 @@
 
-import { Paper } from 'minter/Paper.js'
-import { AddBoxCreator, SubtractBoxCreator, MultiplyBoxCreator, DivideBoxCreator } from './boxes/BinaryOperatorBoxCreator.js'
-import { LessThanBoxCreator, LessThanOrEqualBoxCreator, GreaterThanBoxCreator, GreaterThanOrEqualBoxCreator, EqualsBoxCreator, NotEqualsBoxCreator } from './boxes/ComparisonBoxCreator.js'
-import { NumberListBoxCreator } from './boxes/NumberListBox.js'
-import { SumBoxCreator } from './boxes/SumBox.js'
-import { AverageBoxCreator } from './boxes/AverageBox.js'
-import { NumberBoxCreator } from './boxes/NumberBox.js'
-import { SliderCreator } from './Slider/SliderCreator.js'
-import { StepperCreator } from './Stepper/StepperCreator.js'
+import { Paper } from '@bhbr/minter'
+import { AddBoxCreator, SubtractBoxCreator, MultiplyBoxCreator, DivideBoxCreator } from '../boxes/BinaryOperatorBoxCreator.js'
+import { LessThanBoxCreator, LessThanOrEqualBoxCreator, GreaterThanBoxCreator, GreaterThanOrEqualBoxCreator, EqualsBoxCreator, NotEqualsBoxCreator } from '../boxes/ComparisonBoxCreator.js'
+import { NumberListBoxCreator } from '../boxes/NumberListBox.js'
+import { SumBoxCreator } from '../boxes/SumBox.js'
+import { AverageBoxCreator } from '../boxes/AverageBox.js'
+import { NumberBoxCreator } from '../boxes/NumberBox.js'
+import { SliderCreator } from '../Slider/SliderCreator.js'
+import { StepperCreator } from '../Stepper/StepperCreator.js'
 
-export class MathPaper extends Paper {
+export class ArithmeticPaper extends Paper {
 
 	defaults(): object {
 		return {
@@ -52,5 +52,3 @@ export class MathPaper extends Paper {
 	}
 
 }
-
-let p = new MathPaper()

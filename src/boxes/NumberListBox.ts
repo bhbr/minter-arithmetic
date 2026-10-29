@@ -1,15 +1,6 @@
 
-import { Linkable } from 'minter/linkables/Linkable.js'
-import { Scroll } from 'minter/ui/Scroll.js'
-import { Rectangle } from 'minter/shapes/Rectangle.js'
-import { Color } from 'minter/classes/Color.js'
-import { DraggingCreator } from 'minter/creators/DraggingCreator.js'
+import { Linkable, Scroll, Rectangle, Color, DraggingCreator, log, ScreenEvent, SimpleButton, DependencyLink, TextLabel } from '@bhbr/minter'
 import { vertex } from '@bhbr/affr2'
-import { log } from 'minter/functions/logging.js'
-import { ScreenEvent } from 'minter/mobjects/screen_events.js'
-import { SimpleButton } from 'minter/ui/SimpleButton.js'
-import { DependencyLink } from 'minter/linkables/DependencyLink.js'
-import { TextLabel } from 'minter/ui/TextLabel.js'
 
 export class NumberListBox extends Linkable {
 	

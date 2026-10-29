@@ -1,16 +1,6 @@
 
-import { Rectangle } from 'minter/shapes/Rectangle.js'
-import { TextLabel } from 'minter/ui/TextLabel.js'
-import { Color } from 'minter/classes/Color.js'
-import { Linkable } from 'minter/linkables/Linkable.js'
-import { log } from 'minter/functions/logging.js'
+import { Rectangle, TextLabel, Color, Linkable, log, getPaper, getSidebar, ScreenEvent, ScreenEventHandler, isTouchDevice, SidebarButton, DependencyLink, DraggingCreator, prettyPrint } from '@bhbr/minter'
 import { vertex } from '@bhbr/affr2'
-import { getPaper, getSidebar } from 'minter/functions/getters.js'
-import { ScreenEvent, ScreenEventHandler, isTouchDevice } from 'minter/mobjects/screen_events.js'
-import { SidebarButton } from 'minter/sidebar_buttons/SidebarButton.js'
-import { DependencyLink } from 'minter/linkables/DependencyLink.js'
-import { DraggingCreator } from 'minter/creators/DraggingCreator.js'
-import { prettyPrint } from 'minter/functions/various.js'
 
 export class NumberBox extends Linkable {
 

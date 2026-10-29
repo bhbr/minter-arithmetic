@@ -1,14 +1,8 @@
 
 import { NumberBox } from './NumberBox.js'
 import { NumberListBox } from './NumberListBox.js'
-import { Linkable } from 'minter/linkables/Linkable.js'
-import { Circle } from 'minter/shapes/Circle.js'
-import { TextLabel } from 'minter/ui/TextLabel.js'
-import { Color } from 'minter/classes/Color.js'
-import { log } from 'minter/functions/logging.js'
-import { ScreenEventHandler } from 'minter/mobjects/screen_events.js'
 import { NumberInputBox } from '../InputBox/NumberInputBox.js'
-import { DependencyLink } from 'minter/linkables/DependencyLink.js'
+import { Linkable, Circle, TextLabel, Color, log, ScreenEventHandler, DependencyLink } from '@bhbr/minter'
 
 type operatorString = '+' | '–' | '&times;' | '/' | '<' | '≤' | '>' | '≥' | '=' | '≠' 
 

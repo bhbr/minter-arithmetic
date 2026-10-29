@@ -1,7 +1,6 @@
 
 import { NumberValuedFunctionBox } from './NumberValuedFunctionBox.js'
-import { numberArraySum } from 'minter/functions/math.js'
-import { DraggingCreator } from 'minter/creators/DraggingCreator.js'
+import { numberArraySum, DraggingCreator } from '@bhbr/minter'
 
 export class SumBox extends NumberValuedFunctionBox {
 	
