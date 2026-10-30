@@ -41,6 +41,7 @@ between a min (0 for now) and max (1 for now) value via scrubbing.
 	defaults(): object {
 		return {
 			inputProperties: [
+				{ name: 'min', type: 'number' },
 				{ name: 'max', type: 'number' }
 			],
 			outputProperties: [
