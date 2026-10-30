@@ -1,2 +1,4 @@
-# minter
- INTERactive Math objects
+# minter-arithmetic
+
+Basic arithmetic mobjects for minter
+
