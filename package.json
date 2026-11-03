@@ -11,8 +11,10 @@
     }
   },
   "files": [
-    "dist/",
-    "!dist/_tests"
+    "dist",
+    "!dist/_tests",
+    "html",
+    "!html/tests.html"
   ],
   "scripts": {
     "build": "./build.sh",
