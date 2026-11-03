@@ -5,3 +5,4 @@ node_modules/*
 tsconfig.tsbuildinfo
 src/index.ts
 
+src/index.ts
