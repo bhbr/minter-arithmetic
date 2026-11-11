@@ -6,6 +6,7 @@ export class ListFunctionsButton extends CreativeButton {
 	defaults(): object {
 		return {
 			creations: ['list', 'sum', 'mean'],
+			iconLocation: '../../minter-arithmetic/assets',
 			iconSize: 25
 		}
 	}

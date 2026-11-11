@@ -6,6 +6,7 @@ export class ArithmeticButton extends CreativeButton {
 	defaults(): object {
 		return {
 			creations: ['add', 'subtract', 'multiply', 'divide'],
+			iconLocation: '../../minter-arithmetic/assets',
 			iconSize: 20
 		}
 	}
